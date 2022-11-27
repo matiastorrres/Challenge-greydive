@@ -1,0 +1,14 @@
+.content_tasks {
+  display: block;
+  text-align: left;
+  min-height: 20px;
+  padding: 1rem;
+}
+.content_task {
+  padding: 5px;
+  border: solid 1px #fff;
+  margin: 1rem;
+}
+.content_tasks p {
+  line-height: 1.5;
+}

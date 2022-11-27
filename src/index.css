@@ -1,0 +1,43 @@
+:root {
+  --main-font: sans-serif;
+  --font-size: 1rem;
+}
+html {
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  overflow-x: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-image: repeating-radial-gradient(
+    circle farthest-corner at -1% 0,
+    #d4034f,
+    #b1005e
+  );
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+h4 {
+  margin: 1rem;
+}
+p {
+  margin: 0.5rem;
+}

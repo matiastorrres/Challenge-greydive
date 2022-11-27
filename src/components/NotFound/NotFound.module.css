@@ -1,0 +1,10 @@
+.container_notFound {
+  color: azure;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 94vh;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+.header_container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px black solid;
+  background-image: repeating-radial-gradient(
+    circle farthest-corner at -1% 0,
+    #d4034f,
+    #b1005e
+  );
+  font-size: 1.5rem;
+}
+.header_title {
+  color: #fff;
+  font-family: Gotham, sans-serif;
+}

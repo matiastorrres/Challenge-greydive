@@ -1,0 +1,26 @@
+.content_tasks {
+  height: 19rem;
+  padding: 5px;
+  margin: 1rem auto;
+  width: 360px;
+  border: solid 3px #fff;
+  border-radius: 1rem;
+}
+.content_task {
+  height: 6rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.content_tasks button {
+  background-color: transparent;
+  width: 40%;
+  height: 10%;
+  background-color: rgb(220, 20, 60, 0.8);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: #fff solid 1px;
+  margin: 0 1rem;
+  border-radius: 20px;
+}

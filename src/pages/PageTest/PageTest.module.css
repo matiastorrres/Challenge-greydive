@@ -1,0 +1,25 @@
+.content_test {
+  text-align: center;
+  margin: 1rem auto;
+  min-height: 50vh;
+  min-width: 300px;
+  color: #fff;
+}
+.content_title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.content_video {
+  width: 80%;
+  max-width: 1200px;
+  max-height: 500px;
+}
+
+@media (min-width: 900px) {
+  .content_taskAndAcordeon {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
