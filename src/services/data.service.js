@@ -1,9 +1,5 @@
-import axios from "axios";
+import datatabase from "../data/db.json";
 export const getData = async () => {
-  try {
-    const { data } = await axios("db.json");
-    return data;
-  } catch (error) {
-    console.log(error);
-  }
+  const data = datatabase;
+  return data;
 };
